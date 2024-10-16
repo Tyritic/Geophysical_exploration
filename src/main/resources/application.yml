@@ -1,0 +1,14 @@
+server:
+  port: ${project.port}
+
+spring:
+  profiles:
+      active: dev
+
+project:
+  #配置jwt令牌
+  jwt:
+    #微信小程序用户相关配置
+    user-secret-key: Geophysical_exploration
+    user-ttl: 720000000 # 20小时
+    user-token-name: token
