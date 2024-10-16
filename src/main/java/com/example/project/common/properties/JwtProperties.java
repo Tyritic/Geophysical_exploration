@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Data //自动生成getter和setter方法
 @ConfigurationProperties(prefix = "project.jwt") //自动装配，读取配置文件中以jwt开头的配置
 
-public class jwtProperties {
+public class JwtProperties {
 
     /**
      * 微信小程序用户生成jwt令牌相关配置
